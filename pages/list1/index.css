@@ -1,0 +1,37 @@
+#App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.toot {
+    background-color: #337ab7;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.list {
+    flex: 1;
+    background-color: #fff;
+    padding: 15px;
+    overflow: auto;
+}
+
+.list .item {
+    background-color: #5cb85c;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #5bc0de;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
